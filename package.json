@@ -4,8 +4,12 @@
   "description": "better web administration for rethinkdb",
   "main": "index.js",
   "scripts": {
+    "test": "mocha test/*.js",
     "start": "node index.js",
-    "test": "mocha test/*.js"
+    "nodemon": "nodemon -d 3 index.js -i public/ -i node_modules/",
+    "build": "browserify -t [ babelify --presets [ react ] ] public/js/app.js -o public/bundle.js --verbose",
+    "watch": "watchify -t [ babelify --presets [ react ] ] public/js/app.js -o public/bundle.js --verbose",
+    "livereload": "livereloadx --exclude '.*' --include 'bundle.js' --exclude '*.{js,jsx}' public/"
   },
   "repository": {
     "type": "git",
