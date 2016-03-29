@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  color: #eee;
+  background: #222;
+}
