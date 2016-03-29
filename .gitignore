@@ -1,5 +1,6 @@
 node_modules/
 rethinkdb_data/
+private/
 *.swo
 *.swp
 *.DS_STORE
