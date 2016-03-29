@@ -1,0 +1,33 @@
+{
+  "name": "rethinkdb-webmin",
+  "version": "0.0.0",
+  "description": "better web administration for rethinkdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talmobi/rethinkdb-webmin.git"
+  },
+  "keywords": [
+    "rethinkdb",
+    "webmin",
+    "admin",
+    "simple",
+    "secure",
+    "proxy",
+    "rethink"
+  ],
+  "author": "talmobi <talmo.christian@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talmobi/rethinkdb-webmin/issues"
+  },
+  "homepage": "https://github.com/talmobi/rethinkdb-webmin#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "http-proxy": "^1.13.2",
+    "socket.io": "^1.4.5"
+  }
+}
