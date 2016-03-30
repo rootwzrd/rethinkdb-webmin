@@ -31,8 +31,11 @@
   },
   "homepage": "https://github.com/talmobi/rethinkdb-webmin#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
     "http-proxy": "^1.13.2",
+    "react-router": "^2.0.1",
     "redux": "^3.3.1",
     "socket.io": "^1.4.5"
   },
